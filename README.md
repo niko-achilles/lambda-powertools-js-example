@@ -1,5 +1,6 @@
-## Lambda Function with Powertools
+## Example Serverless Application in Javascript with AWS Powertools and CDK
 
-This is a [lambda function](./src/manualTracedLambda.js) which is written in Javascript with Typescript support in VSCode.
+### Points of interest
 
-The lambda function uses the [tracer](https://awslabs.github.io/aws-lambda-powertools-typescript/latest/core/tracer/) of [AWS Lambda Powertools for TypeScript](https://awslabs.github.io/aws-lambda-powertools-typescript/latest/)
+- Example Lambda Application in Javascript with strong typing support and aws powertools layer [lamda application](./app/)
+- CDK customized project structure for better experience, [cdk-application-stack](./aws/)
